@@ -1,0 +1,21 @@
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class JTextAreaTest extends JFrame {
+// 여러줄 입력 가능한 컴포넌트 : JTextArea
+	public JTextAreaTest() {
+		String[] lblTexts = {"작성자","글제목: ","글내용: "};
+		JLabel lbls = new JLabel[lblTexts.length];
+		
+		setTitle("JTextArea 연습");
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setBounds(700, 500, 500, 250);
+		setVisible(true);
+	}
+	
+	public static void main(String[] args) {
+		
+		new JTextAreaTest();
+	}
+
+}

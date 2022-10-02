@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;RunnableClockTest.java&apos; to &apos;1020/src/test.clock&apos;&#x0D;&#x0A;- Original project: &apos;1020&apos;&#x0D;&#x0A;- Destination element: &apos;1020/src/test.clock&apos;&#x0D;&#x0A;- Original element: &apos;RunnableClockTest.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;test.clock" element1="/src&lt;{RunnableClockTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1634707083008" units="1" version="1.0"/>
+</session>

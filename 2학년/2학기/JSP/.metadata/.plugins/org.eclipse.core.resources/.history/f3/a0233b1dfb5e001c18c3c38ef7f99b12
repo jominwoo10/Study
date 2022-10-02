@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+    <%@ page import="java.sql.*" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>내용</title>
+</head>
+<body>
+<%
+String url = "jdbc:mysql://localhost:3306/jspproject?useUnicode=yes&characterEncoding=UTF-8";
+String id = "root";
+String pass = "jsp2021";
+int idx= Integer.parseInt(request.getParameter("idx"));
+	try {	
+		Connection conn = DriverManager.getConnection(url,id,pass);
+		Statement stmt = conn.createStatement();
+		
+		String sql = "select message from myself where number="+idx;";
+		ResultSet save= stmt.executeQuery(sql);
+		if(save.next()){
+			String message = save.getString(1);
+			%>    
+<%=message%>
+                <%
+                stmt.executeUpdate(sql);
+                save.close();
+                stmt.close();
+                conn.close();
+		}
+	}catch(SQLException e){}
+                %>
+</body>
+</html>

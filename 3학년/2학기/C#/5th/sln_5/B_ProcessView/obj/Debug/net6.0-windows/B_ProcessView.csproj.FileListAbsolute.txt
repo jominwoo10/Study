@@ -1,0 +1,17 @@
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\bin\Debug\net6.0-windows\B_ProcessView.exe
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\bin\Debug\net6.0-windows\B_ProcessView.deps.json
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\bin\Debug\net6.0-windows\B_ProcessView.runtimeconfig.json
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\bin\Debug\net6.0-windows\B_ProcessView.dll
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\bin\Debug\net6.0-windows\B_ProcessView.pdb
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\obj\Debug\net6.0-windows\B_ProcessView.csproj.AssemblyReference.cache
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\obj\Debug\net6.0-windows\B_ProcessView.Form1.resources
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\obj\Debug\net6.0-windows\B_ProcessView.csproj.GenerateResource.cache
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\obj\Debug\net6.0-windows\B_ProcessView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\obj\Debug\net6.0-windows\B_ProcessView.AssemblyInfoInputs.cache
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\obj\Debug\net6.0-windows\B_ProcessView.AssemblyInfo.cs
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\obj\Debug\net6.0-windows\B_ProcessView.csproj.CoreCompileInputs.cache
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\obj\Debug\net6.0-windows\B_ProcessView.dll
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\obj\Debug\net6.0-windows\refint\B_ProcessView.dll
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\obj\Debug\net6.0-windows\B_ProcessView.pdb
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\obj\Debug\net6.0-windows\B_ProcessView.genruntimeconfig.cache
+C:\Users\YUHAN\Desktop\5th\sln_5\B_ProcessView\obj\Debug\net6.0-windows\ref\B_ProcessView.dll

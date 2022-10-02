@@ -1,0 +1,37 @@
+<객체지향언어>
+
+-https://github.com/ycs-wikim/2021_oop2 -> 교수님 사이트-
+
+1.탐색기에서 d드라이브 경로이동 후 배시셸 킴 -> git bash here 실행
+2.git clone https://github.com/ycs-201707008/2021_oop2.git
+3.ls
+4.cd 2021_oop2/
+5.git status
+6.touch ycs-201707008
+7.ls
+8.git status
+9.git add ycs-201707008
+10.git status
+11.git restore --staged ycs-201707008
+12.ls
+13.git status
+14.git add.
+15.git status
+16.git push -> 서버로 옮기기 (정보가없어서 옮겨지지않음)
+17.git commit -> 현재상태를 고정시켜서 (안해도됨)
+18.git config --global user.email "jominwoo10@naver.com"
+19.git config --global user.name "jmwoo"
+--17번해도 변화없음 --  --18,19 누가 수정했는지 올리기--
+20.git commit -m "add file"
+21.git push
+
+-교수님 파일 받아오기-
+1.git bash 재실행
+2.git clone https://github.com/ycs-wikim/2021_oop2.git
+3.git pull -> 받아오기
+
+
+<connect to github>
+깃허브홈페이지에서 내아이콘 클릭 - 설정 클릭 - developer settings클릭 - personal acces tokens -> generate new token ->
+note : test -> repo만 체크후 생성 -> 코드값 복사 후 sign in
+코드값 : 

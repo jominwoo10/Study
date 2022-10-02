@@ -1,0 +1,52 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.util.Enumeration" %>
+<!DOCTYPE html>
+<% request.setCharacterEncoding("utf-8");
+String id = request.getParameter("id");
+String pw = request.getParameter("pw");
+String desc = request.getParameter("desc");
+String M = request.getParameter("M_status");
+String edu = request.getParameter("edu");
+String na = request.getParameter("na");
+String[] like = request.getParameterValues("like");%>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<b>ID</b> : <span style ="color:blue"><%= id %><br/></span>
+<b>Password</b> : <span style ="color:blue"><%= pw %><br/></span>
+<b>자기소개 : </b><span style ="color:blue"><%= desc %><br/><hr></span>
+<span style ="color:purple"><b>조민우</b></span> (학번:201707008)님의 관심분야는<br/>
+<%
+String[] interest = request.getParameterValues("cp");
+for (int i=0; i< interest.length-1; i++){ %>
+<b> <%= interest[i] %></b>,
+<%} %>
+<span style ="color:blue"><b><%= interest[interest.length-1] %></b></span> 입니다.<br>
+당신은 <span style ="color:blue"><b><%=M %></b></span> 입니다.<hr>
+당신이 체크한 것은 아래와 같습니다.<br/><br/>
+<%
+Enumeration enums = request.getParameterNames();
+while (enums.hasMoreElements()){
+	String name=(String)enums.nextElement();
+	if(name.startsWith("option")){
+		String value = request.getParameter(name);
+		out.println(value + "<br/>");
+	}
+}
+%>
+<b>당신의</b> 학력, 소속국가 및 관심분야는 다음과 같습니다.<br/>
+<span style ="color:blue"><b><%=edu %></b></span> 과 <span style ="color:blue"><b><%=na %></b><br/></span>
+<b>
+<span style ="color:blue"><%
+if(like != null){
+	for (int i=0;i<like.length;i++){
+		out.println(like[i]);
+	}
+}
+%></b></span>
+</body>
+</html>

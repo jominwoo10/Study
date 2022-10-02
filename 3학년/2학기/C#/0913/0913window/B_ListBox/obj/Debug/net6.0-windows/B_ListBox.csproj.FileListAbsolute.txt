@@ -1,0 +1,17 @@
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\bin\Debug\net6.0-windows\B_ListBox.exe
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\bin\Debug\net6.0-windows\B_ListBox.deps.json
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\bin\Debug\net6.0-windows\B_ListBox.runtimeconfig.json
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\bin\Debug\net6.0-windows\B_ListBox.dll
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\bin\Debug\net6.0-windows\B_ListBox.pdb
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\obj\Debug\net6.0-windows\B_ListBox.csproj.AssemblyReference.cache
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\obj\Debug\net6.0-windows\B_ListBox.Form1.resources
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\obj\Debug\net6.0-windows\B_ListBox.csproj.GenerateResource.cache
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\obj\Debug\net6.0-windows\B_ListBox.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\obj\Debug\net6.0-windows\B_ListBox.AssemblyInfoInputs.cache
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\obj\Debug\net6.0-windows\B_ListBox.AssemblyInfo.cs
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\obj\Debug\net6.0-windows\B_ListBox.csproj.CoreCompileInputs.cache
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\obj\Debug\net6.0-windows\B_ListBox.dll
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\obj\Debug\net6.0-windows\refint\B_ListBox.dll
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\obj\Debug\net6.0-windows\B_ListBox.pdb
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\obj\Debug\net6.0-windows\B_ListBox.genruntimeconfig.cache
+C:\Users\YUHAN\Desktop\0913\0913window\B_ListBox\obj\Debug\net6.0-windows\ref\B_ListBox.dll

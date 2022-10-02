@@ -1,0 +1,84 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+가입할 ID와 Password 및 자기소개를 입력하세요.
+<form action = "w7.jsp" method="post" name="textform">
+ID : <input type="text" name="id"><br/>
+Password : <input type="password" name="pw"><br/>
+자기소개<br/>
+<textarea name = "desc" cols="50" rows="4"></textarea><br>
+
+<table border=1>
+<tr>
+<td>관심분야</td>
+<td>
+<input type="checkbox" name="cp" value="엔터테이먼트">엔터테이먼트<br/>
+<input type="checkbox" name="cp" value="컴퓨터/인터넷" checked>컴퓨터/인터넷<br/>
+<input type="checkbox" name="cp" value="경제/비지니스">경제/비지니스<br/>
+<input type="checkbox" name="cp" value="스포츠/건강">스포츠/건강<br/>
+<input type="checkbox" name="cp" value="여행/관광">여행/관광<br/>
+</td>
+</tr>
+
+<tr>
+<td>결혼여부</td>
+<td>
+<input type="radio" name="M_status" value="미혼" checked>미혼
+<input type="radio" name="M_status" value="기혼">기혼
+</td>
+</tr>
+
+<tr>
+<td>선호</td>
+<td>
+<input type="checkbox" name=option1" value="Milk">Milk<br/>
+<input type="checkbox" name=option2" value="Butter" checked>Butter<br/>
+<input type="checkbox" name=option3" value="Cheese" checked>Cheese<br/>
+</td>
+</tr>
+
+<tr><td>학력</td>
+<td>
+<select name="edu">
+<option selected>재학생</option>
+<option>학사</option>
+<option>석사</option>
+<option>박사</option>
+</select>
+</td>
+</tr>
+
+<tr><td>소속국가</td>
+<td>
+<select name="na" size="3">
+<option selected>Korea</option>
+<option>USA</option>
+<opiton>Jspan</opiton>
+</select></td>
+</tr>
+
+<tr><td>관심분야</td>
+<td>
+<select name="like" size="4" multiple>
+<option>광고/미디어</option>
+<option selected>프로듀서</option>
+<option selected>컨설팅</option>
+<option>그래픽디자이너</option>
+</select>
+</td>
+</tr>
+</table>
+
+<div style="text-align:center;">
+<input type="submit" value="전송" name="submitbtn">
+<input type="reset" value="초기화" name="resetbtn">
+</div>
+</form>
+</body>
+</html>

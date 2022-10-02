@@ -1,0 +1,79 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import ="user.UserDAO"%>
+<%@ page import ="user.User"%>
+<%
+	String target = request.getParameter("target");
+	if(target == null) target = "cnetermenu";
+	String targetPage = target + ".jsp";
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+	String id = "조민우";
+	if(session.getAttribute("id") != null){
+   	 id = (String)session.getAttribute("id");
+	}
+	
+	User user = new UserDAO().getuser(id);
+	
+%>
+<table width="1000" height="600" border="1" cellpadding="5" align="center" style="table-layout:fixed">
+	<tr >
+		<td align="center" width="20%" >
+			<jsp:include page="lefttop.jsp" />
+		</td>
+		<td align="center" width="60%">
+			<%=id%>님의 미니홈피 입니다.<br>
+		</td>
+		<td align="center" width="20%">
+			<jsp:include page="righttop.jsp"/>
+		</td>
+	</tr>
+	<tr>
+		<td rowspan="4" align="center">
+			<jsp:include page = "leftmenu.jsp" flush="false"/>
+		</td>
+		<td rowspan="4" width="60%" align="center">
+			<jsp:include page = "<%= targetPage %>" flush="false"/>
+		</td>
+		<td align="center">
+			<jsp:include page = "rightmenu1.jsp" flush="false"/>
+		</td>
+	</tr>
+	
+	<tr>
+		<td align="center"> 
+			<jsp:include page = "rightmenu2.jsp" flush="false"/>
+		</td>
+	</tr>
+	
+	<tr>
+		<td align="center"> 
+			<jsp:include page = "rightmenu3.jsp" flush="false"/>
+		</td>
+	</tr>
+	
+	<tr>
+		<td align="center"> 
+			<jsp:include page = "rightmenu4.jsp" flush="false"/>
+		</td>
+	</tr>
+	
+	<tr>
+		<td colspan ="3" align="center" height="100">
+			<%=id%>님 안녕하세요!<br>
+			<%if(id.equals("admin")){%>
+				<a href="userlist.jsp">회원목록보기<br>(관리자만 가능)</a>
+			<%} %>
+		</td>
+	</tr>
+	
+</table>
+</body>
+</html>

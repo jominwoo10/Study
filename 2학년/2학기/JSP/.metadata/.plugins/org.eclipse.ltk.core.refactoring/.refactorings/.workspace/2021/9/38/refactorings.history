@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;JSP2021-0906&apos; to &apos;JSP2021-Test1&apos;" description="Rename resource &apos;JSP2021-0906&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/JSP2021-0906" name="JSP2021-Test1" stamp="1631499990954" updateReferences="true"/>
+</session>

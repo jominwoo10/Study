@@ -1,0 +1,22 @@
+package yuhan.spring.di;
+
+import java.util.ArrayList;
+
+public class MyInfo {
+	private String name;
+	private double height;
+	private double weight;
+	private ArrayList<String>hobbys;
+	private BMICalculator bmiCalculaotr;
+	
+	public void bmiCalculaotr() {
+		bmiCalculaotr.bmicalculation(height, weight);
+	}
+	
+	public void getInfo() {
+		System.out.println("name :" + name);
+		System.out.println("height :" + height);
+		System.out.println("weight :" + weight);
+		System.out.println("hobbys :" + hobbys);
+	}
+}

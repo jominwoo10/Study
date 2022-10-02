@@ -1,0 +1,17 @@
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\bin\Debug\net6.0-windows\B_Progress.exe
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\bin\Debug\net6.0-windows\B_Progress.deps.json
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\bin\Debug\net6.0-windows\B_Progress.runtimeconfig.json
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\bin\Debug\net6.0-windows\B_Progress.dll
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\bin\Debug\net6.0-windows\B_Progress.pdb
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\obj\Debug\net6.0-windows\B_Progress.csproj.AssemblyReference.cache
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\obj\Debug\net6.0-windows\B_Progress.Form1.resources
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\obj\Debug\net6.0-windows\B_Progress.csproj.GenerateResource.cache
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\obj\Debug\net6.0-windows\B_Progress.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\obj\Debug\net6.0-windows\B_Progress.AssemblyInfoInputs.cache
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\obj\Debug\net6.0-windows\B_Progress.AssemblyInfo.cs
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\obj\Debug\net6.0-windows\B_Progress.csproj.CoreCompileInputs.cache
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\obj\Debug\net6.0-windows\B_Progress.dll
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\obj\Debug\net6.0-windows\refint\B_Progress.dll
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\obj\Debug\net6.0-windows\B_Progress.pdb
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\obj\Debug\net6.0-windows\B_Progress.genruntimeconfig.cache
+C:\Users\YUHAN\Desktop\0913\0913window\B_Progress\obj\Debug\net6.0-windows\ref\B_Progress.dll

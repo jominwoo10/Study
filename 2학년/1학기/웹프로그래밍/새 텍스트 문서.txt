@@ -1,0 +1,87 @@
+﻿1.  echo $_SERVER ['SCRIPT_FILENAME'] 실행중인 파일 절대경로
+
+2. 전위,후위 증감식 출력 결과값
+
+3. 예제 3-4	81page
+
+4. .연산자 출력 결과값
+
+5. gettype 데이터타입 출력 빈칸채우기	 (타입을 알아내는 명령은?)
+
+6. switch case -> if ~ elseif ~ else 	 (4-9예제 시험 다중if문을 switch case로 바꾸기)
+   if ~ elseif ~ else   -> switch case
+
+7. for문을 이용하여 프로그램을 구성하시오.
+
+8. 이중 for문, while문 빈칸채우기	(구구단 세로방식으로 출력하기) 150쪽 연습문제 3번도 풀고, 4번 이중포문 이용해서 구구단짜기 
+
+9. while문에서 1부터 10까지 짝수의 합을 출력하는 프로그램
+
+10. continue, break 꼭 보기
+
+11. 배열 초기화 (2차원 배열)	$score = array(array(98,96,95), array(88,66,75)); 배열 초기화 예제 5-4
+
+12. 함수의 인자를 넣어서 호출하였을때 출력 결과값 (함수 만들기)  return문으로 완성하시오. 
+     echo 를 써서 출력할때에는 함수를 변수로 안받아도 된다.   예제 5-8
+
+13.  crypt() 함수 암호화
+
+14. 예제 5-17(2번째줄 값을 받아오는 변수) post방식으로 넘기기 
+
+
+15. root로 로그인 하는 명령 : mysql -hlocalhost -uroot
+
+16. 데이터베이스 생성하는 명령 : create databases name;	(show databases;)
+
+17. 데이터베이스 삭제하는 명령 : drop databases name;
+		
+
+
+18 . 테이블 생성하는 명령 : create table name(			(show tables;)
+			no int pirmary key,
+			name varchar(12),
+			hp char(15),
+			addr varchar(30)); 
+
+19. 테이블 안에 구조보는 명령 : desc name; or explain name;
+
+20. 테이블구조(tel 속성) 추가하기 : alter table name
+		       	      add tel varchar(15);
+
+21. 테이블구조 삭제하기 : alter table name
+		       drop column tel;	(tel = 속성명)
+000
+
+23. 데이터 삽입 :  insert into snack(sno, sname, price, text)
+    	          values(1111, '새우깡', 1200, '짤쪼름한 새우의 품미'); 
+
+	          insert into snack(sno, sname, price, text)
+	          values(1131, '감자깡', 800, '감자의 품미');
+
+24. 조회하기 : select *
+	     from snack;
+
+25. 데이터 수정 : update snack
+  	         set sname = '고구마깡'
+	         where sno = 1322;
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+SET SERVEROUTPUT ON;
+set pages 24;
+set lines 120;

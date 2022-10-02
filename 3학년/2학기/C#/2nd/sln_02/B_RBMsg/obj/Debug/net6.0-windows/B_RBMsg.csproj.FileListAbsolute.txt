@@ -1,0 +1,17 @@
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\bin\Debug\net6.0-windows\B_RBMsg.exe
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\bin\Debug\net6.0-windows\B_RBMsg.deps.json
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\bin\Debug\net6.0-windows\B_RBMsg.runtimeconfig.json
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\bin\Debug\net6.0-windows\B_RBMsg.dll
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\bin\Debug\net6.0-windows\B_RBMsg.pdb
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\obj\Debug\net6.0-windows\B_RBMsg.csproj.AssemblyReference.cache
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\obj\Debug\net6.0-windows\B_RBMsg.Form1.resources
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\obj\Debug\net6.0-windows\B_RBMsg.csproj.GenerateResource.cache
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\obj\Debug\net6.0-windows\B_RBMsg.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\obj\Debug\net6.0-windows\B_RBMsg.AssemblyInfoInputs.cache
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\obj\Debug\net6.0-windows\B_RBMsg.AssemblyInfo.cs
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\obj\Debug\net6.0-windows\B_RBMsg.csproj.CoreCompileInputs.cache
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\obj\Debug\net6.0-windows\B_RBMsg.dll
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\obj\Debug\net6.0-windows\refint\B_RBMsg.dll
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\obj\Debug\net6.0-windows\B_RBMsg.pdb
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\obj\Debug\net6.0-windows\B_RBMsg.genruntimeconfig.cache
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_RBMsg\obj\Debug\net6.0-windows\ref\B_RBMsg.dll

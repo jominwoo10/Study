@@ -1,0 +1,13 @@
+create table num(
+	aa varchar(2) not null
+);
+
+show tables from num;
+
+create table memo(
+	message VARCHAR(255) NOT NULL
+);
+
+select * from myself;
+
+show tables;

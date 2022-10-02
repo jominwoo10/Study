@@ -1,0 +1,17 @@
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\bin\Debug\net6.0-windows\B_CBChoice.exe
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\bin\Debug\net6.0-windows\B_CBChoice.deps.json
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\bin\Debug\net6.0-windows\B_CBChoice.runtimeconfig.json
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\bin\Debug\net6.0-windows\B_CBChoice.dll
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\bin\Debug\net6.0-windows\B_CBChoice.pdb
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\obj\Debug\net6.0-windows\B_CBChoice.csproj.AssemblyReference.cache
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\obj\Debug\net6.0-windows\B_CBChoice.Form1.resources
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\obj\Debug\net6.0-windows\B_CBChoice.csproj.GenerateResource.cache
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\obj\Debug\net6.0-windows\B_CBChoice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\obj\Debug\net6.0-windows\B_CBChoice.AssemblyInfoInputs.cache
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\obj\Debug\net6.0-windows\B_CBChoice.AssemblyInfo.cs
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\obj\Debug\net6.0-windows\B_CBChoice.csproj.CoreCompileInputs.cache
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\obj\Debug\net6.0-windows\B_CBChoice.dll
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\obj\Debug\net6.0-windows\refint\B_CBChoice.dll
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\obj\Debug\net6.0-windows\B_CBChoice.pdb
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\obj\Debug\net6.0-windows\B_CBChoice.genruntimeconfig.cache
+C:\Users\YUHAN\Desktop\2nd\sln_02\B_CBChoice\obj\Debug\net6.0-windows\ref\B_CBChoice.dll

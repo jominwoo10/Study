@@ -1,0 +1,34 @@
+import java.awt.FlowLayout;
+
+import javax.swing.ButtonGroup;
+import javax.swing.JFrame;
+import javax.swing.JRadioButton;
+
+public class JRadioTest extends JFrame {
+	
+	public JRadioTest() {
+		setLayout(new FlowLayout());
+		String[] radioTexts = {"바나나","오렌지","레드향","샤인머스켓","자몽"};
+		JRadioButton[] radios = new JRadioButton[radioTexts.length];
+		ButtonGroup group = new ButtonGroup();
+		for (int i = 0; i < radios.length; i++) {
+			radios[i] = new JRadioButton(radioTexts[i]);
+			group.add(radios[i]);
+		}
+		
+		radios[3].setSelected(true);
+		
+		setTitle("JRadioButton 연습");
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+		setBounds(700, 500, 500, 200);
+		setVisible(true);
+		
+	}
+
+	public static void main(String[] args) {
+		
+		new JRadioTest();
+
+	}
+
+}

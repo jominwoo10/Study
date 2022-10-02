@@ -1,0 +1,39 @@
+create table num(
+	aa varchar(2) not null
+);
+
+show tables from num;
+
+create table myself(
+	num int(5),
+	message VARCHAR(255)
+)charset=utf8;
+
+select * from myself;
+
+drop table write_content;
+
+create table userinfo(
+	num int(20) AUTO_INCREMENT PRIMARY KEY,
+	name varchar(50) not null,
+	id varchar(50) not null,
+	password varchar(50) not null,
+	email varchar(50) not null
+)charset=utf8;
+
+create table write_content(
+	num int(20) AUTO_INCREMENT PRIMARY KEY,
+	title varchar(50) not null,
+	content varchar(2048) not null,
+	available int,
+	time timestamp not null default now()
+)charset=utf8;
+
+insert into write_content(title,content) values("sdasd","dasfasfs");
+
+select * from write_content;
+
+select * from userinfo;
+
+insert into userinfo(name,id,password,email) values("admin","admin","admin","admin");
+show tables;

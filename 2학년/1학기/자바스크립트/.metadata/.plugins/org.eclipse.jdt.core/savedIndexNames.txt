@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+C:\Users\조민우\Desktop\민우\유한대학교\자바스크립트\.metadata\.plugins\org.eclipse.jdt.core

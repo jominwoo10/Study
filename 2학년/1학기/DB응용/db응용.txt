@@ -1,0 +1,41 @@
+-EMP 테이블(사원의정보 테이블)-
+
+EMPNO - 사원번호
+ENAME - 이름 
+JOB - 직무
+MGR - 상사의 사원번호(상사가 누구인지)
+HIREDATE - 입사일
+SAL - 급여
+COMM -	급여 외 추가수당
+DEPTNO - 부서번호
+
+
+-DEPT 테이블-
+
+DEPTNO - 부서번호
+DNAME - 부서이름
+LOC - 부서 위치
+
+
+-SALGRADE 테이블- (급여 등급)
+
+GRADE - 등급 1~5
+LOSAL - 최저급여
+HISAL - 최고급여 
+
+
+
+start database - 시작
+sqlplus 
+user-name : scott
+password : tiger
+
+select * 
+from emp ;
+
+
+-sqlplus- 항상사용
+
+set pages 24 -> 한개의 페이지 24라인
+set lines 120 -> 한 라인의 글자수 120(기본 80개)
+/ => 바로전에 실행한 sql명령어 실행

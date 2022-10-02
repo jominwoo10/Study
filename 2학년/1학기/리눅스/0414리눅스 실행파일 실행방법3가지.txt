@@ -1,0 +1,3 @@
+로그아웃 - 로그인
+source .bashrc
+. .bascrc
