@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	                    http://www.springframework.org/schema/beans/spring-beans.xsd">
+	                    
+	<!-- <bean id='hello' class='kr.co.softcampus.beans.HelloWorldEn'/> -->
+	<bean id='hello' class='kr.co.softcampus.beans.HelloWorldKo'/>
+</beans>
+<beans>
+<bean id="bmi" class="yuhan.spring.di2.BMICalculatorr">
+	<property name="loweight" value="18.5"/>
+	<property name="normal" value="23"/>
+	<property name="overweight" value="25"/>
+	<property name="obesity" vaule="30"/>
+</bean>
+<bean id="info" class="yuhan.spring.di2.MyInfo">
+	<property name="name" value="홍길동"/>
+	<property name="height" value="180"/>
+	<property name="weight" vlaue="70"/>
+	<property name="hobbys">
+	<list>
+		<vlaue>수영</vlaue>
+		<value>게임</value>
+		<value>독서</value>
+	</list>
+	</property>
+	
+	<property name="bmiCalculator">
+	<ref bean="bmi"/>
+	</property>
+</bean>
+</beans>

@@ -1,0 +1,31 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%> <%-- 페이지 지시문 --%>
+    <%@ page import = "java.util.Random" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+String start ="[";
+String end ="]";
+%>
+	현재의 날짜와 시각은 <%@ include file = "data.jspf" %>입니다.
+		<br><hr>
+	dateNotify의 내용은 ==>> <br>
+	<%@ include file = "dateNotify.jspf" %><br>
+	<%= jspf_var %><hr>
+<%@ include file = "top.jsp" %><hr/>
+포함하는 페이지의 내용입니다.<hr>
+<%@ include file = "bottom.jsp" %>
+</body>
+</html>
+<%-- 스크립트 릿 " <% %> " : jsp 페이지 내에서 코드 구현을 위해 사용(로직 짜기) --%>
+<%-- 스크립트 릿을 사용해 JSP페이지 내에 Java 코드를 넣을수 있음.(세미콜론 사용 o) --%>
+
+<%-- 스크립팅 요소 " <%=%> " : 간단한 데이터 출력할때 사용함(세미콜론 사용 x) --%>
+<%-- 선언 " <%! %> " : jsp페이지 전체에서 사용할 변수나 메소드(함수)를 선언할때에(세미콜론 사용 o) --%>
+<%-- 주석 : <!-- -->, // /**/ --%>
+<%-- 액션태그, JSTL, 커스텀 태그 --%>

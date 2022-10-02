@@ -1,0 +1,13 @@
+C:\Users\YUHAN\Desktop\201707008C#\8th\sln_8th\project_2\bin\Debug\netcoreapp3.1\project_2.exe
+C:\Users\YUHAN\Desktop\201707008C#\8th\sln_8th\project_2\bin\Debug\netcoreapp3.1\project_2.deps.json
+C:\Users\YUHAN\Desktop\201707008C#\8th\sln_8th\project_2\bin\Debug\netcoreapp3.1\project_2.runtimeconfig.json
+C:\Users\YUHAN\Desktop\201707008C#\8th\sln_8th\project_2\bin\Debug\netcoreapp3.1\project_2.runtimeconfig.dev.json
+C:\Users\YUHAN\Desktop\201707008C#\8th\sln_8th\project_2\bin\Debug\netcoreapp3.1\project_2.dll
+C:\Users\YUHAN\Desktop\201707008C#\8th\sln_8th\project_2\bin\Debug\netcoreapp3.1\project_2.pdb
+C:\Users\YUHAN\Desktop\201707008C#\8th\sln_8th\project_2\obj\Debug\netcoreapp3.1\project_2.csprojAssemblyReference.cache
+C:\Users\YUHAN\Desktop\201707008C#\8th\sln_8th\project_2\obj\Debug\netcoreapp3.1\project_2.AssemblyInfoInputs.cache
+C:\Users\YUHAN\Desktop\201707008C#\8th\sln_8th\project_2\obj\Debug\netcoreapp3.1\project_2.AssemblyInfo.cs
+C:\Users\YUHAN\Desktop\201707008C#\8th\sln_8th\project_2\obj\Debug\netcoreapp3.1\project_2.csproj.CoreCompileInputs.cache
+C:\Users\YUHAN\Desktop\201707008C#\8th\sln_8th\project_2\obj\Debug\netcoreapp3.1\project_2.dll
+C:\Users\YUHAN\Desktop\201707008C#\8th\sln_8th\project_2\obj\Debug\netcoreapp3.1\project_2.pdb
+C:\Users\YUHAN\Desktop\201707008C#\8th\sln_8th\project_2\obj\Debug\netcoreapp3.1\project_2.genruntimeconfig.cache
