@@ -1,0 +1,167 @@
+<218>
+
+#include <stdio.h>
+
+int compare(int num1, int num2);
+
+int main(void)
+{
+	printf("5와 8중에 더큰수는 %d 이다. \n",compare(5,8));
+	printf("2와 1중에 더큰수는 %d 이다. \n",compare(2,1));
+	return 0;
+}
+
+int compare(int num1, int num2)
+{
+	if(num1>num2)
+		return num1;
+	else
+		return num2;
+}
+
+<219>
+
+#include <stdio.h>
+
+int compare(int num1, int num2);
+int absovalue(int num);
+
+int main(void)
+{
+	int num1, num2;
+	printf("두 정수 입력 : ");
+	scanf("%d %d",&num1,&num2);
+	printf("%d와 %d중 절댓값이 큰 정수 : %d \n",num1,num2,compare(num1,num2));
+	return 0;
+}
+
+int compare(int num1, int num2)
+{
+	if(absovalue(num1) > absovalue(num2))  //함수의 함수를 선언할수도 있다.
+		return num1;
+	else
+		return num2;
+}
+
+int absovalue(int num)
+{
+	if(num<0)
+		return num*(-1);
+	else
+		return num;
+}
+
+<222>
+
+#include <stdio.h>
+
+int funcone(void);
+int functwo(void);
+
+int main(void)
+{
+	int num = 15;
+	funcone();
+	functwo();
+	printf("main num : %d \n",num);  //같은 num의 이름이지만 다른 함수이기때문에 main의 num은 15출력
+	return 0;
+}
+
+int funcone(void)
+{
+	int num=10;
+	num++;
+	printf("funcone num : %d \n",num);  //후위증가로인해 11출력
+	return 0;
+}
+
+int functwo(void)
+{
+	int num1=20;
+	int num2=30;
+	num1++, num2--;
+	printf("num1 & num2 : %d %d \n",num1,num2);  //위에서 후위증가와 후위감소로인해 21과 29출력
+	return 0;
+}
+
+<226>
+
+#include <stdio.h>
+
+int main(void)
+{
+	int cnt;
+	for(cnt=0; cnt<3; cnt++)
+	{
+		int num=0;
+		num++;
+		printf("%d번째 반복중,지역변수 num1의 값은 %d \n",cnt+1,num);  //지역변수는 해당 선언문에서만 영향을끼친다 
+	}
+
+	if(cnt==3)
+	{
+		int num=7;
+		num++;
+		printf("if문 내에 지역변수 num의 값은 %d \n",num);  //지역변수는 해당 선언문에서만 영향을끼친다 
+	}
+	return 0;
+}
+
+<228>
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num=1;
+
+	if(num==1)
+	{
+		int num=8;
+		num+=10;
+		printf("if문 내에 지역변수 num 값은 : %d \n",num);  //if문 내에 지역변수는 if문이 끝나면 소멸 main에는 영향이없다
+	}
+	printf("main 함수 내에 지역변수 num 값은 : %d \n",num);
+	return 0; 
+}
+
+<230>
+
+#include <stdio.h>
+
+void add(int val);
+int num;  //기본 0 값으로 초기화
+
+int main(void)
+{
+	printf("num : %d \n",num);
+	add(3);  //num에 3이 들어감
+	printf("num : %d \n",num);
+	num ++;  //num에 3이있엇는데 ++후위증가해서 다음행부터 4
+	printf("num : %d \n",num);
+	return 0;
+}
+
+void add(int val)
+{
+	num += val;
+}
+
+<234>
+
+#include <stdio.h>
+
+void func(void)
+{
+	static int num1=0;  //static을 쓰면서 지역변수가 전역변수로 바뀌게된다 따라서 num1의 값은 계속 증가한다
+	int num2=0;
+	num1++,num2++;
+	printf("static : %d, local : %d \n",num1,num2);
+}
+int main(void)
+{
+	int i;
+	for(i=0; i<3; i++)
+		func();
+	return 0;
+}

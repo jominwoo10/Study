@@ -1,0 +1,96 @@
+-290p-
+
+#include stdio.h
+
+int main(void)
+{
+	int minwoo[]={1,2,3};
+	printf(배열이름  %p n,minwoo);
+	printf(첫번째방 주소값  %p n,&minwoo[0]);
+	printf(두번째방 주소값  %p n,&minwoo[1]);
+	printf(세번째방 주소값  %p n,&minwoo[2]);
+	return 0;
+}
+
+-292p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int minwoo[3]={1,2,3};
+	int jo[3]={4,5,6};
+
+	printf("%d %d \n",*minwoo,*jo);  //여기서 minwoo라고 선언한것은 minwoo[0]과 같음
+	*minwoo += 150;
+	*jo *= 2;
+	printf("%d %d \n",minwoo[0],jo[0]);
+	return 0;
+}
+
+-294p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int minwoo[3]={10,20,30};
+	int * jo=minwoo;  // int * jo = &minwoo[0]과 같은문장
+
+	printf("%d %d \n",*minwoo,*jo); //printf("%d %d \n",minwoo[0],jo[0])과 같은문장
+	printf("%d %d \n",minwoo[1],jo[1]);
+	printf("%d %d \n",minwoo[1],jo[2]);
+	return 0;
+}
+
+-297p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int minwoo[3]={10,20,30};
+	int * jo=minwoo;  //int * jo=&minwoo[0]과 같다
+	
+	printf("%d %d %d %d \n",*jo, *(jo+1), *(jo+2), *jo+1);
+	printf("%d ",*jo); jo++;
+	printf("%d ",*jo); jo++;
+	printf("%d ",*jo); jo--;
+	printf("%d \n",*jo);
+	return 0;
+}
+
+
+-302p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	char jo[]="I Love You";
+	char * min="Thank You";
+	printf("%s %s \n",jo,min);
+
+	min="How are you doing";
+	printf("%s \n",min);
+
+	jo[0]='x';
+	/*min[0]='x';*/ //여기줄은 자신의것이 아니므로 가리키는대상은 바꿀수있지만 값을바꿀수없기때문에 오류가난다
+	printf("%s %s \n",jo,min);
+	return 0;
+}
+
+-304p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1=10,num2=20,num3=30;
+	int * arr[]={&num1,&num2,&num3};  //이처럼 포인터도 배열로 사용할수 있다.
+
+	printf("%d \n",*arr[0]);
+	printf("%d \n",*arr[1]);
+	printf("%d \n",*arr[2]);
+	return 0;
+}

@@ -1,0 +1,117 @@
+-109-
+
+#include <stdio.h>
+
+int main(void)
+{
+	char ch=11;
+	int inum=1824;
+	double dnum=3.356;
+	printf("ch의 크기 : %d \n",sizeof(ch)); //sizeof는 자료형의 크기를알수있다 ch는 char형이므로 1byte라서 1값출력
+	printf("inum의 크기 : %d \n",sizeof(inum)); //inum은 int형이므로 4byte라서 4값출력
+	printf("dnum의 크기 : %d \n",sizeof(dnum)); //dnum은 double형이므로 8byte라서 8값출력
+
+	printf("char의 크기 : %d \n",sizeof(char)); //char = 1byte
+	printf("int의 크기 : %d \n",sizeof(int)); //int = 4byte
+	printf("long의 크기 : %d \n",sizeof(long)); //long = 4byte
+	printf("long long의 크기 : %d \n",sizeof(long long)); //long long = 8byte
+	printf("float의 크기 : %d \n",sizeof(float)); //float = 4byte
+	printf("double의 크기 : %d \n",sizeof(double)); //double = 8byte
+	return 0;
+}
+
+-110-
+
+#include <stdio.h>
+
+int main(void)
+{
+	char num1=1, num2=2, result1=0;
+	short num3=500, num4=600, result2=0;
+
+	printf("num1의 자료형 값과 num2의 자료형 값 : %d, %d \n",sizeof(num1),sizeof(num2)); //char 자료형값 1,1출력
+	printf("num3의 자료형 값과 num4의 자료형 값 : %d, %d \n",sizeof(num3),sizeof(num4)); //short 자료형값 2,2출력
+
+	printf("char형끼리 더한 값 : %d \n",sizeof(num1+num2)); //연산이되면서 int형으로 넘어가서 4출력
+	printf("short형끼리 더한 값 : %d \n",sizeof(num3+num4)); //연산이되면서 int형으로 넘어가서 4출력
+
+	result1=num1+num2;
+	result2=num3+num4;
+	printf("결과1 자료형값과 결과2 자료형값 : %d,%d \n",sizeof(result1),sizeof(result2));
+
+	return 0;
+}
+
+-113-
+
+#include <stdio.h>
+
+int main(void)
+{
+	double rad;
+	double area;
+	printf("원의 반지름 입력: ");
+	scanf("%lf", &rad); //입력할때는 %lf를써줘야한다 = double
+
+	area = rad*rad*3.1415;
+	printf("원의 넓이 : %f \n",area); //출력할때는 %f입력
+	return 0;
+}
+
+-117-
+
+#include <stdio.h>
+
+int main(void)
+{
+	char ch1='C', ch2=71;
+	int ch3='R', ch4=90;
+
+	printf("%c %d \n",ch1,ch1); //아스키코드와 아스키코드값으로 변환
+	printf("%c %d \n",ch2,ch2);
+	printf("%c %d \n",ch3,ch3);
+	printf("%c %d \n",ch4,ch4);
+	return 0;
+}
+
+-122-
+
+#include <stdio.h>
+
+int main(void)
+{
+	printf("literal int 크기 : %d \n",sizeof(7)); //int형크기 4byte
+	printf("literal double 크기 : %d \n",sizeof(7.14)); //double형크기 8byte
+	printf("literal char 크기 : %d \n",sizeof('c')); //문자열도 int형크기인 4byte출력된다
+	return 0;
+}
+
+-126-
+
+#include <stdio.h>
+
+int main(void)
+{
+	double num1=341;
+	int num2=4.1254;
+	int num3=254;
+	char ch=num3;
+
+	printf("정수 341을 실수로 %f \n",num1); //정수인 341을 double형에 대입해서 강제형변환
+	printf("실수 4.1254를 정수로 %d \n",num2); //실수를 int형에 대입해서 강제형변환
+	printf("큰 정수 254를 작은 정수로 %d \n",ch); //바이트손실이 생긴것을 2의보수
+	return 0;
+}
+
+-129-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1=2, num2=3;
+	double divResult;
+	divResult = num1/num2;
+	printf("나눗셈 결과 : %f \n",divResult); //위에서 나눗셈결과 0인데 그것을 실수로바꿔서 0.000000값이출력
+	return 0;
+}

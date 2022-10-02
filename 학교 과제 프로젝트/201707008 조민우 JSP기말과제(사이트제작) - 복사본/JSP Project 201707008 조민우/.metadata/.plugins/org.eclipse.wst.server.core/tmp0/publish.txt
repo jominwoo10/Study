@@ -1,6 +1,0 @@
-#Tomcat publish data
-#Mon Dec 13 22:17:41 KST 2021
-org.eclipse.jst.jee.server\:jsp_test2=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5_lsj\\wtpwebapps\\jsp_test2
-org.eclipse.jst.jee.server\:1115=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5_lsj\\wtpwebapps\\1115
-org.eclipse.jst.jee.server\:1122=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5_lsj\\wtpwebapps\\1122
-org.eclipse.jst.jee.server\:jsp2020-test=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.5_lsj\\wtpwebapps\\jsp2020-test

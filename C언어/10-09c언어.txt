@@ -1,0 +1,289 @@
+-57p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1=3, num2=5;
+	printf("%d+%d=%d \n",num1,num2,num1+num2); //num1과 num2의 덧셈결과
+	printf("%d-%d=%d \n",num1,num2,num1-num2); //num1과 num2의 뺄셈결과
+	printf("%d*%d=%d \n",num1,num2,num1*num2); //num1과 num2의 곱셈결과
+	printf("%d/%d 몫=%d \n",num1,num2,num1/num2); //num1과 num2의 몫 결과
+	printf("%d/%d 나머지=%d \n",num1,num2,num1%num2); //num1과 num2의 나머지결과
+	return 0;
+}
+
+-59p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1=6,num2=4,num3=4;
+	num1 += 4; //num1에 num1+4한값을 대입
+	num2 *= 4; //num1에 num2*4한값을 대입
+	num3 %= 5; //num3에 num3/5하고 나머지값을 대입
+	printf("Result : %d, %d, %d \n",num1, num2, num3);
+	return 0;
+}
+
+-60p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1 = +4;
+	int num2 = -2;
+
+	num1 = -num1; //num1에 -부호를 붙임
+	printf("num1결과 : %d \n",num1); //원래 양수였던 num1의 값이 음수로바뀐것을 확인
+	num2 = -num2; //num2에 -부호를 붙임
+	printf("num2결과 : %d \n",num2); //원래 음수였던 num2의 값이 양수로바뀐것을 확인
+	return 0;
+}
+
+-61p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1 = 10;
+	int num2 = 16;
+
+	printf("num1 : %d \n",num1); //처음 num1의값 10이 그대로출력
+	printf("num1++ : %d \n",num1++); //num1값이 10출력되고나서 그후에 num1에값이 1이더해짐(후위)
+	printf("num1-- : %d \n",num1--); //앞에서 num1값이 11이된게 출력되고 그후에 1이감소(후위)
+	printf("최종num1값 : %d \n",num1); //앞에 num1값이 11에서 1감소된 10값이출력
+
+	printf("num2 : %d \n",num2); //처음 num2값 16이출력
+	printf("++num2 : %d \n",++num2); //앞에서 ++를써주면 먼저더하고 출력하기때문에 16에서 1더한값 17이출력(전위)
+	printf("최종num2값 : %d \n",num2); //최종 num2의값인 17이 변화없기때문에 17출력
+	return 0;
+}
+
+-62p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1 = 15;
+	int num2 = (num1--)+2; //num2에 현재 num1이 후위감소이므로 변화없이 15가 들어가면서 뒤에 +2를만나 17이된다
+
+	printf("num1 : %d \n",num1); //위에서 (num1--)가 후위감소 됬으므로 15에서 14가된값이 출력
+	printf("num2 : %d \n",num2); //위에계산처럼 17출력
+	return 0;
+}
+
+-64p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1 = 8;
+	int num2 = 9;
+	int result1,result2,result3;
+
+	result1=(num1==num2); //num1과 num2가 같냐고 물어봄
+	result2=(num1>=num2); //num1이 num2보다 크거나 같냐고물어봄
+	result3=(num1!=num2); //num1과 num2가 다르냐고물어봄
+
+	printf("result1 : %d \n",result1); //거짓인 false값 0이출력
+	printf("result2 : %d \n",result2); //거짓인 false값 0이출력
+	printf("result3 : %d \n",result3); //참값인 true값 1이출력
+
+	return 0;
+}
+
+-66p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1 = 8;
+	int num2 = 9;
+	int result1,result2,result3;
+
+	result1 = (num1==10 && num2 == 9); //&&연산자는 AND관계이므로 num2는 9가맞지만 num1이 10이아니므로 false값 0이저장
+	result2 = (num1<10 || num2 == 10); //||연산자는 or관계이므로 num1보다 10이더크기때문에 조건에만족해서 true값 1이저장
+	result3 = (!num1); //!연산자는 NOT인데 여기에는 num1에 0이아닌 다른값들은 모두 값이들어있다고해서 반대인 false값저장
+
+	printf("result1 : %d \n",result1); //0출력
+	printf("result2 : %d \n",result2); //1출력
+	printf("result3 : %d \n",result3); //0출력
+	return 0;
+}
+
+-67p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1=3, num2=5;
+	printf("안녕"),printf("하세요! \n"); //두개의 printf문을 연결해서 출력
+	num1 ++ , num2 --;
+	printf("%d ",num1), printf("%d",num2), printf("\n"); //,연산자를이용해서 세개의 printf문을 연결해서출력
+
+	return 0;
+}
+
+-71p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1,num2;
+	int result;
+	
+	printf("정수1 : ");
+	scanf("%d", &num1); //키보드로 값을입력한것이 num1에저장된다
+	printf("정수2 : ");
+	scanf("%d", &num2); //키보드로 값을입력한것이 num2에저장된다
+
+	result = num1 + num2;
+	printf("%d + %d = %d \n",num1,num2,result);
+	return 0;
+}
+
+-73p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1,num2,num3;
+	int result;
+	
+	printf("세개의 값을 입력하시오 : ");
+	scanf("%d %d %d", &num1,&num2,&num3); //세개의 값을 입력받은것이 각각 순서대로num1 num2 num3에 저장된다
+
+	result = num1+num2+num3; //result에는 num1 num2 num3에 합계가 들어간다
+	printf("%d + %d + %d = %d \n",num1, num2, num3, result); //세개의 값이랑 합계가 출력된다
+	return 0;
+}
+
+-85p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1=0xB2 , num2=0x59; //num1과 num2에 16진수값으로 초기화작업
+	int num3=051, num4=034; //num3와 num4에 8진수값으로 초기화작업
+
+	printf("0xB2의 10진수 값 : %d \n",num1); //%d라는 서식문자는 10진수 정수형으로 출력해주기때문에 따로 계산할필요없음
+	printf("0x59의 10진수 값 : %d \n",num2); 
+	printf("051의 10진수 값 : %d \n",num3); 
+	printf("034의 10진수 값 : %d \n",num4);
+
+	printf("%d-%d=%d \n",num1,num2,num1-num2); //사칙연산도 가능하다.
+	printf("%d+%d=%d \n",num3,num4,num3+num4);
+
+	return 0;
+}
+
+-91p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int i;
+	float num=0.0; //4바이트에 float형은 실수를 저장하기위해 쓴다
+
+	for(i=0; i<100; i++) // i는0부터 100까지 1씩증가 반복문
+		num+=0.5; //num = num+0.5를 위에 반복문에의해 100번한다
+
+	printf("0.5를 100번 더한값 : %f \n",num); //%f는 10실수형을 출력한다
+	return 0;
+}
+
+-93p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1=7;  //00000000 00000000 00000000 00000111
+	int num2=15; //00000000 00000000 00000000 00001111
+	int num3 = num1 & num2; //num1과 num2의ㅣ 비트단위 AND 연산이다
+	printf("연산결과 : %d \n",num3);
+	return 0;
+}
+
+-95p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1=32; //00000000 00000000 00000000 00100000
+	int num2=15; //00000000 00000000 00000000 00001111
+	int num3 = num1 | num2; //num1과 num2의 비트단위 OR 연산이다
+	printf("연산결과 : %d \n",num3);
+	return 0;
+}
+
+-96p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1=18; //00000000 00000000 00000000 00010010
+	int num2=15; //00000000 00000000 00000000 00001111
+	int num3 = num1 ^ num2; //num1과 num2의 비트단위 XOR 연산이다(같으면 0,다르면 1)
+	printf("연산결과 : %d \n",num3);
+	return 0;
+}
+
+-97p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1=15; //00000000 00000000 00000000 00001111
+	int num2=~num1; //비트단위 NOT연산에 의해서 11111111 11111111 11111111 11110000으로 변한다
+	printf("연산결과 : %d \n",num2); //저것을 2의보수해보면 16이되는데 부호비트가 1이므로 음수인 16이출력된다
+	return 0;
+}
+
+-98p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num=15; //00000000 00000000 00000000 00001111
+	
+	int result1=num<<1; //1칸을 이동하면 00000000 00000000 00000000 00011110 이므로 30
+	int result2=num<<2; //2칸을 이동하면 00000000 00000000 00000000 00111100 이므로 60
+	int result3=num<<3; //3칸을 이동하면 00000000 00000000 00000000 01111000 이므로 120
+
+	printf("result1 결과 : %d \n",result1); //30출력
+	printf("result2 결과 : %d \n",result2); //60출력
+	printf("result3 결과 : %d \n",result3); //120출력 이것을통해 왼쪽으로 한칸이동시 30씩 증가하는것을 알수있다
+	return 0;
+}
+
+-100p-
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num = -16; //11111111 11111111 11111111 11110000
+	int result1 = num>>2; //result1에다가 num값을 부호비트를 오른쪽으로 2칸이동한값이 저장
+	int result2 = num>>3; //result2에다가 num값을 부호비트를 오른쪽으로 3칸이동한값이 저장
+	printf("2칸 오른쪽 이동시 값 : %d \n",result1); //2칸을옮기면 맨뒤에 8자리가 11111100인데 이것을 2의보수하고 부호는똑같다고하면 -4가나옴
+	printf("3칸 오른쪽 이동시 값 : %d \n",result2); //3칸을옮기면 맨뒤에 8자리가 11111110인데 이것을 2의보수하고 부호는똑같다고하면 -2가나옴
+	
+	return 0;
+}

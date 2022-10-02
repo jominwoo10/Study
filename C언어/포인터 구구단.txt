@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int *a,*b,*c;
+	int d,e,f;
+
+	for(d=2; d<=9; d++)
+	{
+		for(e=2; e<=9; e++)
+		{
+			f = d * e;
+			a=&d;
+			b=&e;
+			c=&f;
+			printf("%d*%d=%d\n",*a,*b,*c);
+		}
+	}
+}
